@@ -1,0 +1,114 @@
+.about {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.about-container {
+    min-height: 100vh;
+}
+
+p.about {
+    padding-top: 30vh;
+    font-size: calc(10px + 1.5vmin);
+    margin-bottom: -1vmin;
+    color: rgb(145, 111, 180);
+    padding-left: 10vw;
+}
+
+.h-about {
+    margin: 0;
+    font-size: calc(10px + 5vmin);
+    padding-left: 10vw;
+    background-image: linear-gradient(
+        to left,
+        rgb(96, 107, 207),
+        rgb(210, 75, 214)
+    );
+    color: rgba(0, 0, 0, 0);
+    font-weight: 700;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+div.social-container {
+    height: fit-content;
+    text-align: center;
+    justify-content: center;
+    margin: 4vmin 0 0;
+    align-items: center;
+    /* font */
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 10vw;
+}
+
+.instagram-icons {
+    margin: 0 1vmin 0 0;
+}
+
+.github-icons {
+    margin: 0 1vmin 0 0;
+}
+
+ul.social {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    width: fit-content;
+}
+
+ul.social > li.social {
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+    color: rgb(75, 75, 75);
+    font-size: calc(10px + 1vmin);
+}
+
+a.social:hover {
+    background-color: rgb(53, 49, 80);
+}
+
+li.social:hover {
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s;
+    transform: scale(1.08);
+}
+
+a.social,
+a.social:visited {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+a.social-p-button {
+    background-image: linear-gradient(
+        to left,
+        rgb(64, 50, 145),
+        rgb(125, 48, 128)
+    );
+    border-radius: 100px;
+    padding: 2vmin 4vmin;
+    margin: 0 2vmin 0 0;
+}
+
+a.social-s-button {
+    background-color: rgb(54, 42, 66);
+    border-radius: 100px;
+    padding: 2vmin 4vmin;
+    margin: 0 2vmin 0 0;
+}
+
+p.scroll-down {
+    margin-top: 40vmin;
+    padding: 0;
+    font-size: calc(10px + 1vmin);
+    margin-bottom: 0;
+    color: rgb(183, 71, 187);
+    width: 100%;
+    text-align: center;
+    font-weight: 700;
+}

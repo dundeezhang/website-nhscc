@@ -1,0 +1,37 @@
+.event-cards {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2.events-col {
+    color: white;
+    font-size: calc(10px + 3vmin);
+    font-weight: 700;
+    margin-bottom: 3vmin;
+}
+
+
+h3.event-cards {
+    color: rgb(191, 185, 211);
+    font-size: calc(10px + 2vmin);
+    font-weight: 500;
+}
+
+h4.event-cards {
+    color: rgb(191, 185, 211);
+    font-size: calc(10px + 1vmin);
+}
+
+p.event-cards {
+    color: rgb(191, 185, 211);
+}
+
+.events-container {
+    margin: auto auto 4vmin;
+}
+
+.card-container {
+    min-width: 350px;
+}

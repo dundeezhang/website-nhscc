@@ -1,0 +1,55 @@
+.exec-container {
+    margin: 6vmin 10vw 4vmin;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2.exec {
+    margin: 0 0 7vmin;
+    font-size: calc(10px + 3vmin);
+    color: white;
+    font-weight: 700;
+}
+
+img.exec-images {
+    width: 20vmin;
+    height: 20vmin;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.exec-card-container {
+    text-align: center;
+    color: white;
+}
+
+.exec-name {
+    font-weight: 500;
+    margin-top: 2vmin;
+    font-size: calc(10px + 1.5vmin);
+}
+
+.exec-role {
+    margin-top: 1vmin;
+    font-weight: 400;
+    font-size: calc(10px + 1vmin);
+    color: rgb(183, 71, 187);
+    
+}
+
+.about-exec {
+    margin-top: 1vmin;
+    font-size: calc(10px + 1vmin);
+    color: rgb(194, 194, 194);
+    font-weight: 400;
+    max-width: 30vmin;
+    margin-bottom: 7vmin;
+}
+
+div.about-exec {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
