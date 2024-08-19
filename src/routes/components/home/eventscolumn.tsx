@@ -28,7 +28,10 @@ interface Datas {
 }
 
 const eventsData: [string, string, string][] = [
-    ["First Meeting", "September 9, 2023", "Room 305"],
+    ["Meeting", "April 15, 2024", "Room 305"],
+    ["Canadian Computing Contest", "February 21, 2024", "Library"],
+    ["Meeting", "January 15, 2024", "Room 305"],
+    ["First Meeting", "October 16, 2023", "Room 305"],
     ["No more events", "2020", "Check later for new events"],
 ];
 
